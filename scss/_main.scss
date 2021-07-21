@@ -228,3 +228,41 @@
 	text-decoration: none;
 	font-weight: 500;
 }
+#titulos {
+	color: #000;
+	text-decoration: none;
+}
+#titulos:hover h3 {
+	color: #fff;
+	background-color: #000317;
+	border: solid 1px #000;
+}
+.btn-dark {
+	color: #fff;
+	background-color: #000317;
+	border: solid 2px #000317;
+	font-weight: 700;
+}
+.btn-dark a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+}
+.btn-dark:hover {
+	background-color: #fff;
+	color: #000317;
+	font-weight: none;
+	text-decoration: none;
+}
+.btn-dark a:hover {
+	background-color: #fff;
+	color: #000317;
+	font-weight: none;
+	text-decoration: none;
+}
+.transform:hover {
+}
+.transformproductos:hover {
+	transform: translate(10px, 20px);
+	transition: 1s; 
+}

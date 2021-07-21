@@ -219,11 +219,7 @@
 .card {
   border-color: #000;
 }
-.card:hover {
-  border:solid 10px;
-  border-color: #000314;
-  transform: translate(5px, 10px);
-}
+
 .bg-oscuro {
   background-color: #000317;
   /*#020747 #030947 #000526 #000314*/
@@ -272,5 +268,50 @@
   color: #000;
   text-decoration: none;
   font-weight: 500;
+}
+
+#titulos {
+  color: #000;
+  text-decoration: none;
+}
+
+#titulos:hover h3 {
+  color: #fff;
+  background-color: #000317;
+  border: solid 1px #000;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #000317;
+  border: solid 2px #000317;
+  font-weight: 700;
+}
+
+.btn-dark a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-dark:hover {
+  background-color: #fff;
+  color: #000317;
+  font-weight: none;
+  text-decoration: none;
+}
+
+.btn-dark a:hover {
+  background-color: #fff;
+  color: #000317;
+  font-weight: none;
+  text-decoration: none;
+}
+
+.transformproductos:hover {
+  -webkit-transform: translate(10px, 20px);
+          transform: translate(10px, 20px);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 /*# sourceMappingURL=estilos.css.map */
