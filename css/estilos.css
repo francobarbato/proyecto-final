@@ -219,7 +219,11 @@
 .card {
   border-color: #000;
 }
-
+.card:hover {
+  border:solid 10px;
+  border-color: #000314;
+  transform: translate(5px, 10px);
+}
 .bg-oscuro {
   background-color: #000317;
   /*#020747 #030947 #000526 #000314*/
