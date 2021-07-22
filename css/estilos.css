@@ -281,31 +281,27 @@
   border: solid 1px #000;
 }
 
-.btn-dark {
+.botton {
+  color: #fff;
+  font-weight: 700;
+}
+
+.botton:hover {
+  color: #000317;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn {
   color: #fff;
   background-color: #000317;
   border: solid 2px #000317;
   font-weight: 700;
 }
 
-.btn-dark a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.btn-dark:hover {
+.btn:hover {
   background-color: #fff;
   color: #000317;
-  font-weight: none;
-  text-decoration: none;
-}
-
-.btn-dark a:hover {
-  background-color: #fff;
-  color: #000317;
-  font-weight: none;
-  text-decoration: none;
 }
 
 .transformproductos:hover {
@@ -313,5 +309,20 @@
           transform: translate(10px, 20px);
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  font-family: sans-serif;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: none;
+  color: red;
 }
 /*# sourceMappingURL=estilos.css.map */
