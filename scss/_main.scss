@@ -23,22 +23,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#siteBannerMujer a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
-}
 #siteBannerInfantil {
 	background-image: url("../imagenes/1z0m31Xrtce4I61fyS1Ect_bATK7Xifiy_2000x.jpg");
 	background-size: cover;
 	background-position: 50%;
 	min-height: 450px;
 	height: 50vh;
-}
-#siteBannerInfantil a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
 }
 .titulo h2 {
 	color: black;
@@ -58,11 +48,6 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#siteBannerCascos a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
-}
 #siteCascosMujer {
 	background-image: url("../imagenes/1le2lFcGgewDe4wSrY1d9LbNwG7RSzaay_2000x.jpg");
 	background-size: cover;
@@ -70,22 +55,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#siteCascosMujer a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
-}
 #siteCascosInfantil {
 	background-image: url("../imagenes/1jKvEZeDBm46YbmoVlpvLSgWAibeME24i_2000x.jpg");
 	background-size: cover;
 	background-position: 50%;
 	min-height: 450px;
 	height: 50vh;
-}
-#siteCascosInfantil a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
 }
 #siteBannerEsquies {
 	background-image: url("../imagenes/esquies2.jpg");
@@ -101,22 +76,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#cascos a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
-}
 #antiparras {
 	background-image: url("../imagenes/antiparras2.jpg");
 	background-size: cover;
 	background-position: 50%;
 	min-height: 450px;
 	height: 50vh;
-}
-#antiparras a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
 }
 #esquies {
 	background-image: url("../imagenes/esquies2.jpg");
@@ -125,22 +90,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#esquies a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
-}
 #botas {
 	background-image: url("../imagenes/botas2.jpg");
 	background-size: cover;
 	background-position: 50%;
 	min-height: 450px;
 	height: 50vh;
-}
-#botas a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: 700;
 }
 #equipo {
 	background-image: url("../imagenes/cuidado.jpg");
@@ -149,22 +104,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#equipo a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 700;
-}
 #infantlies {
 	background-image: url("../imagenes/infantiles.jpg");
 	background-size: cover;
 	background-position: 50%;
 	min-height: 450px;
 	height: 50vh;
-}
-#infantlies a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -180,13 +125,18 @@
 .btn-primary {
 	background-color: #002855;
 	border-color: #002855;
-}
-.btn-primary:hover {
-	background-color: #fff;
-	color: #002855;
+	&:hover {
+		background-color: #fff;
+		color: #002855;
+	}
 }
 .card {
 	border-color: #000;
+	&:hover {
+		border:solid 10px;
+		border-color: #000314;
+		transform: translate(5px, 10px);
+	}
 }
 .bg-oscuro{
 	background-color: #000317;/*#020747 #030947 #000526 #000314*/
@@ -239,23 +189,21 @@
 .botton {
 	color: #fff;
 	font-weight: 700;
-}
-.botton:hover {
-	color: #000317;
-	background-color: #fff;
-	text-decoration: none;
+	&:hover {
+		color: #000317;
+		background-color: #fff;
+		text-decoration: none;
+	}
 }
 .btn {
 	color: #fff;
 	background-color: #000317;
 	border: solid 2px #000317;
 	font-weight: 700;
-}
-.btn:hover {
-	background-color: #fff;
-	color: #000317;
-}
-.transform:hover {
+	&:hover {
+		background-color: #fff;
+		color: #000317;
+	}
 }
 .transformproductos:hover {
 	transform: translate(10px, 20px);
@@ -272,4 +220,19 @@
 .breadcrumb-item a:hover {
 	text-decoration: none;
 	color: red;
+}
+.parrafo {
+	font-family: sans-serif;
+	color: #000;
+	padding: 10px;
+	line-height: 1.5;
+}
+.parrafoIndex {
+	font-family: sans-serif;
+	color: #000;
+	text-align: center;
+}
+.parrafo b a {
+	text-decoration: none;
+	color: #000;
 }
