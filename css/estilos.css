@@ -148,6 +148,7 @@
 .btn-primary:hover {
   background-color: #fff;
   color: #002855;
+  border: solid 2px #002855;
 }
 
 .card {
@@ -167,7 +168,11 @@
 }
 
 .bg-email {
-  background-color: #000317;
+  background-color: #000;
+}
+
+.form-control {
+  resize: none;
 }
 
 .bg-footer {
@@ -190,6 +195,7 @@
 
 .btn-modal:hover {
   color: #fff;
+  border: solid 2px #002855;
 }
 
 .cardparrafo {
