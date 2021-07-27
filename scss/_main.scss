@@ -66,7 +66,7 @@
     @include sizes(450px, 50vh);
 }
 #cascos {
-	background-image: url("../imagenes/casco.jpg");
+	background-image: url("../imagenes/1OyAB4MjdbCefb__yBThENSnZtzlVyom7_2000x.jpg");
 	background-size: cover;
 	background-position: 50%;
     @include sizes(450px, 50vh);
@@ -77,8 +77,20 @@
 	background-position: 50%;
     @include sizes(450px, 50vh);
 }
+#antiparras2 {
+	background-image: url("../imagenes/antiparras2.1.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
 #esquies {
 	background-image: url("../imagenes/esquies2.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#esquies02 {
+	background-image: url("../imagenes/women_02.jpg");
 	background-size: cover;
 	background-position: 50%;
     @include sizes(450px, 50vh);
@@ -138,15 +150,16 @@
 .form-control {
 	resize: none;
 }
-.bg-footer {
-	background-color: $color;
-}
-.footer a{
-	text-decoration: none;
-	color: white;
-}
 .footer a:hover {
-	color:#2CE8D8;
+	text-decoration: none;
+}
+.bg-footer {
+	background-color: #000526;
+}
+.ig:hover {
+	transform: translate(3px, 3px);
+	transition: 1s;
+	text-decoration: none;
 }
 .btn-modal {
 	background-color: $color-2;
@@ -214,7 +227,7 @@
 }
 .breadcrumb-item a:hover {
 	text-decoration: none;
-	color: red;
+	color: #DA1535;/*#DA1514,*/
 }
 .parrafo {
 	font-family: $font-family;
@@ -230,4 +243,17 @@
 .parrafo b a {
 	text-decoration: none;
 	color: #000;
+}
+.navbar {
+	text-transform: uppercase;
+	& a:hover {
+		color: red;/*sacar*/
+		text-decoration: none;
+	}
+}
+.navbar-title {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
 }

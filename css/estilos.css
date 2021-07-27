@@ -81,7 +81,7 @@
 }
 
 #cascos {
-  background-image: url("../imagenes/casco.jpg");
+  background-image: url("../imagenes/1OyAB4MjdbCefb__yBThENSnZtzlVyom7_2000x.jpg");
   background-size: cover;
   background-position: 50%;
   min-height: 450px;
@@ -96,8 +96,24 @@
   height: 50vh;
 }
 
+#antiparras2 {
+  background-image: url("../imagenes/antiparras2.1.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 450px;
+  height: 50vh;
+}
+
 #esquies {
   background-image: url("../imagenes/esquies2.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 450px;
+  height: 50vh;
+}
+
+#esquies02 {
+  background-image: url("../imagenes/women_02.jpg");
   background-size: cover;
   background-position: 50%;
   min-height: 450px;
@@ -175,17 +191,20 @@
   resize: none;
 }
 
-.bg-footer {
-  background-color: #000317;
-}
-
-.footer a {
-  text-decoration: none;
-  color: white;
-}
-
 .footer a:hover {
-  color: #2CE8D8;
+  text-decoration: none;
+}
+
+.bg-footer {
+  background-color: #000526;
+}
+
+.ig:hover {
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
 }
 
 .btn-modal {
@@ -270,7 +289,8 @@
 
 .breadcrumb-item a:hover {
   text-decoration: none;
-  color: red;
+  color: #DA1535;
+  /*#DA1514,*/
 }
 
 .parrafo {
@@ -289,5 +309,22 @@
 .parrafo b a {
   text-decoration: none;
   color: #000;
+}
+
+.navbar {
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: red;
+  /*sacar*/
+  text-decoration: none;
+}
+
+.navbar-title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=estilos.css.map */
