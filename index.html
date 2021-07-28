@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>SkiShop.com</title>
   <meta name="description" content="Este es el sitio web de mi tienda, vende equipo de esqui alpino y elementos para el cuidado de los esquies">
   <meta name="keywords" content="ESQUIES, CASCOS, BOTAS, ANTIPARRAS,CUIDADO DEL EQUIPO, LIMAS, CEPPILOS">
@@ -15,7 +16,7 @@
 <body>
       <header>
           <nav class="navbar navbar-dark navbar-expand-lg navbar-light bg-oscuro">
-            <a class="navbar-title mr-5" href="index.html">SKI SHOP</a>
+            <a class="navbar-brand mr-5" href="index.html">SKI SHOP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -97,7 +98,7 @@
       </div>
       <section>
         <article class="row container-fluid p-5">
-            <div class="col-12 col-xl-4">
+            <div data-aos="flip-up" class="col-12 col-xl-4">
               <div class="transformproductos">
                  <div id="cascos"></div>
                  <h3 class="mx-5 py-2">Cascos</h3>
@@ -106,7 +107,7 @@
                    <button type="button" class="btn d-block mx-auto">Ver mas</button>
                </a>
             </div>
-            <div class="col-12 col-xl-4">
+            <div data-aos="flip-up" class="col-12 col-xl-4">
               <div class="transformproductos">
                  <div id="antiparras2"></div>
                  <h3 class="mx-5 py-2">Antiparras</h3>
@@ -115,7 +116,7 @@
                    <button type="button" class="btn d-block mx-auto">Ver mas</button>
                </a>         
             </div>
-            <div class="col-12 col-xl-4">
+            <div data-aos="flip-up" class="col-12 col-xl-4">
               <div class="transformproductos">
                  <div id="esquies"></div>
                  <h3 class="mx-5 py-2">Esquies</h3>
@@ -125,7 +126,7 @@
                </a>         
             </div>
         </article>
-        <article class="container">
+        <article data-aos="zoom-in-right" class="container">
           <div class="row">
             <div class="col-12 col-xl-12">
                <div id="equipo"></div>
@@ -139,11 +140,11 @@
             </a>   
           </div>
         </article>
-        <article class="container py-5">
+        <article data-aos="zoom-in-right" class="container py-5">
           <div class="row">
             <div class="col-12 col-xl-12">
                 <div id="infantlies"></div>  
-                <h3 class="mx-5 py-2">Infantiles</h3>
+                <h3 class="mx-5 py-2 text-center">Infantiles</h3>
             </div>
             <a href="secciones/infantiles.html" class="mt-4 mx-auto botton">
                <button type="button" class="btn d-block mx-auto">Ver mas</button>
@@ -152,9 +153,9 @@
         </article>
       </section>
       <form class="form-inline px-5 p-3 mb-0 bg-email text-white"><!--email-->
-         <label class="sr-only" for="inlineFormInputName2">nombre</label>
-         <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="nombre y apellido">
-         <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+        <label class="sr-only" for="inlineFormInputName2">nombre</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="nombre y apellido">
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label> 
         <div class="input-group mb-2 mr-sm-2">
             <div class="input-group-prepend">
                <div class="input-group-text">@</div>
@@ -213,5 +214,9 @@
       </div>
       <script src="js/jquery-3.5.1.slim.min.js"></script>
       <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

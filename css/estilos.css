@@ -270,11 +270,12 @@
   color: #000317;
 }
 
+.transformproductos {
+  opacity: 0.8;
+}
+
 .transformproductos:hover {
-  -webkit-transform: translate(10px, 20px);
-          transform: translate(10px, 20px);
-  -webkit-transition: 1s;
-  transition: 1s;
+  opacity: 1;
 }
 
 .breadcrumb {
@@ -311,20 +312,19 @@
   color: #000;
 }
 
-.navbar {
-  text-transform: uppercase;
-}
-
-.navbar a:hover {
-  color: red;
-  /*sacar*/
-  text-decoration: none;
-}
-
 .navbar-title {
   color: #fff;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 3rem;
   font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #DA1535;
 }
 /*# sourceMappingURL=estilos.css.map */

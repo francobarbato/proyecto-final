@@ -213,9 +213,11 @@
 		color: $color;
 	}
 }
-.transformproductos:hover {
-	transform: translate(10px, 20px);
-	transition: 1s; 
+.transformproductos { 
+	opacity: 0.8;
+	&:hover {
+		opacity: 1;
+	}
 }
 .breadcrumb {
 	background-color: transparent;
@@ -244,16 +246,16 @@
 	text-decoration: none;
 	color: #000;
 }
-.navbar {
-	text-transform: uppercase;
-	& a:hover {
-		color: red;/*sacar*/
-		text-decoration: none;
-	}
-}
 .navbar-title {
 	color: #fff;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 3rem;
 	font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	&:hover {
+		color: #DA1535;
+	}
 }
