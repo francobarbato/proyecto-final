@@ -113,6 +113,12 @@
 	background-position: 50%;
     @include sizes(450px, 50vh);
 }
+#nosotros {
+	background-image: url("../imagenes/brc.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 25px;
@@ -150,14 +156,19 @@
 .form-control {
 	resize: none;
 }
+.formulario {
+	width: 10px; height: 40px;
+    transition: all 5s;
+}
+.formulario:focus {
+	width: 100px;
+	font-size: 24px;
+ }
 .footer a:hover {
 	text-decoration: none;
 }
 .bg-footer {
-	background-color: #002855;
-	@media (min-width: 576px) {
-		background-color: #002855;
-	}
+	background-color: $color-2;
 }
 .ig:hover {
 	transform: translate(3px, 3px);
@@ -183,19 +194,12 @@
 	min-height: 450px;
 	height: 50vh;
 }
-#esquiesInfantil a {
+.titulos {
 	color: #000;
 	text-decoration: none;
 	font-weight: 500;
-}
-#titulos {
-	color: #000;
-	text-decoration: none;
-}
-#titulos:hover h3 {
-	color: #fff;
-	background-color: $color;
-	border: solid 1px #000;
+	font-size: 2rem;
+	font-family: $font-familyTit;
 }
 .botton {
 	color: #fff;
@@ -204,15 +208,6 @@
 		color: $color;
 		background-color: #fff;
 		text-decoration: none;
-	}
-	@media (min-width: 576px) {
-		color: #fff;
-	font-weight: 700;
-	&:hover {
-		color: $color;
-		background-color: #fff;
-		text-decoration: none;
-	}
 	}
 }
 .btn {
@@ -224,25 +219,15 @@
 		background-color: #fff;
 		color: $color;
 	}
-	@media (min-width: 576px) {
-		color: #fff;
-	background-color: $color;
-	border: solid 2px $color;
-	font-weight: 700;
-	&:hover {
-		background-color: #fff;
-		color: $color;
-	}
-	}
 }
 .transformproductos { 
-	opacity: 0.8;
+	/*opacity: 0.8;
 	&:hover {
 		opacity: 1;
-	}
+	}*/
 }
 .banners {
-	opacity: 0.8;
+	opacity: 0.5;
 	&:hover {
 		opacity: 1;
 	}
@@ -266,10 +251,11 @@
 	line-height: 1.5;
 	font-size: 1rem;
 }
-.parrafoIndex {
+.parrafos {
 	font-family: $font-family;
 	color: #000;
 	text-align: center;
+	font-size: 1rem;
 }
 .parrafo b a {
 	text-decoration: none;
@@ -287,4 +273,23 @@
 	&:hover {
 		color: #DA1535;
 	}
+}
+.infantiles {
+	background-image: url("../imagenes/antiparras2.jpg");
+	background-size: cover;
+	background-position: 50%;
+	min-height: 450px;
+	height: 50vh;
+	position: relative;
+}
+.infantiles:hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#020747,#030947 ,#000526 );  
+	background-position: 50%;
+	opacity: .8;
+	transition: 0.5s;
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap");
 #header h1 a {
   color: white;
   text-decoration: none;
@@ -144,6 +145,14 @@
   height: 50vh;
 }
 
+#nosotros {
+  background-image: url("../imagenes/brc.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 450px;
+  height: 50vh;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 25px;
@@ -191,18 +200,24 @@
   resize: none;
 }
 
+.formulario {
+  width: 10px;
+  height: 40px;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+.formulario:focus {
+  width: 100px;
+  font-size: 24px;
+}
+
 .footer a:hover {
   text-decoration: none;
 }
 
 .bg-footer {
   background-color: #002855;
-}
-
-@media (min-width: 576px) {
-  .bg-footer {
-    background-color: #002855;
-  }
 }
 
 .ig:hover {
@@ -236,21 +251,12 @@
   height: 50vh;
 }
 
-#esquiesInfantil a {
+.titulos {
   color: #000;
   text-decoration: none;
   font-weight: 500;
-}
-
-#titulos {
-  color: #000;
-  text-decoration: none;
-}
-
-#titulos:hover h3 {
-  color: #fff;
-  background-color: #000317;
-  border: solid 1px #000;
+  font-size: 2rem;
+  font-family: "Teko", sans-serif;
 }
 
 .botton {
@@ -262,18 +268,6 @@
   color: #000317;
   background-color: #fff;
   text-decoration: none;
-}
-
-@media (min-width: 576px) {
-  .botton {
-    color: #fff;
-    font-weight: 700;
-  }
-  .botton:hover {
-    color: #000317;
-    background-color: #fff;
-    text-decoration: none;
-  }
 }
 
 .btn {
@@ -288,29 +282,15 @@
   color: #000317;
 }
 
-@media (min-width: 576px) {
-  .btn {
-    color: #fff;
-    background-color: #000317;
-    border: solid 2px #000317;
-    font-weight: 700;
-  }
-  .btn:hover {
-    background-color: #fff;
-    color: #000317;
-  }
-}
-
 .transformproductos {
-  opacity: 0.8;
-}
-
-.transformproductos:hover {
-  opacity: 1;
+  /*opacity: 0.8;
+	&:hover {
+		opacity: 1;
+	}*/
 }
 
 .banners {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .banners:hover {
@@ -341,10 +321,11 @@
   font-size: 1rem;
 }
 
-.parrafoIndex {
+.parrafos {
   font-family: "Oswald", sans-serif;
   color: #000;
   text-align: center;
+  font-size: 1rem;
 }
 
 .parrafo b a {
@@ -366,5 +347,28 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #DA1535;
+}
+
+.infantiles {
+  background-image: url("../imagenes/antiparras2.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 450px;
+  height: 50vh;
+  position: relative;
+}
+
+.infantiles:hover span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#020747), color-stop(#030947), to(#000526));
+  background-image: linear-gradient(#020747, #030947, #000526);
+  background-position: 50%;
+  opacity: .8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=estilos.css.map */
