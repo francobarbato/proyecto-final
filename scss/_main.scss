@@ -202,6 +202,15 @@
 		background-color: #fff;
 		text-decoration: none;
 	}
+	@media (min-width: 576px) {
+		color: #fff;
+	font-weight: 700;
+	&:hover {
+		color: $color;
+		background-color: #fff;
+		text-decoration: none;
+	}
+	}
 }
 .btn {
 	color: #fff;
@@ -212,8 +221,24 @@
 		background-color: #fff;
 		color: $color;
 	}
+	@media (min-width: 576px) {
+		color: #fff;
+	background-color: $color;
+	border: solid 2px $color;
+	font-weight: 700;
+	&:hover {
+		background-color: #fff;
+		color: $color;
+	}
+	}
 }
 .transformproductos { 
+	opacity: 0.8;
+	&:hover {
+		opacity: 1;
+	}
+}
+.banners {
 	opacity: 0.8;
 	&:hover {
 		opacity: 1;
@@ -236,6 +261,7 @@
 	color: #000;
 	padding: 10px;
 	line-height: 1.5;
+	font-size: 1rem;
 }
 .parrafoIndex {
 	font-family: $font-family;

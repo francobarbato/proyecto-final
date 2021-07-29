@@ -258,6 +258,18 @@
   text-decoration: none;
 }
 
+@media (min-width: 576px) {
+  .botton {
+    color: #fff;
+    font-weight: 700;
+  }
+  .botton:hover {
+    color: #000317;
+    background-color: #fff;
+    text-decoration: none;
+  }
+}
+
 .btn {
   color: #fff;
   background-color: #000317;
@@ -270,11 +282,32 @@
   color: #000317;
 }
 
+@media (min-width: 576px) {
+  .btn {
+    color: #fff;
+    background-color: #000317;
+    border: solid 2px #000317;
+    font-weight: 700;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #000317;
+  }
+}
+
 .transformproductos {
   opacity: 0.8;
 }
 
 .transformproductos:hover {
+  opacity: 1;
+}
+
+.banners {
+  opacity: 0.8;
+}
+
+.banners:hover {
   opacity: 1;
 }
 
@@ -299,6 +332,7 @@
   color: #000;
   padding: 10px;
   line-height: 1.5;
+  font-size: 1rem;
 }
 
 .parrafoIndex {
