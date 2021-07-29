@@ -196,7 +196,13 @@
 }
 
 .bg-footer {
-  background-color: #000526;
+  background-color: #002855;
+}
+
+@media (min-width: 576px) {
+  .bg-footer {
+    background-color: #002855;
+  }
 }
 
 .ig:hover {

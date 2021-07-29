@@ -154,7 +154,10 @@
 	text-decoration: none;
 }
 .bg-footer {
-	background-color: #000526;
+	background-color: #002855;
+	@media (min-width: 576px) {
+		background-color: #002855;
+	}
 }
 .ig:hover {
 	transform: translate(3px, 3px);
