@@ -282,6 +282,10 @@
   color: #000317;
 }
 
+.banners:hover {
+  opacity: 0.6;
+}
+
 .breadcrumb {
   background-color: transparent;
   font-family: "Oswald", sans-serif;
