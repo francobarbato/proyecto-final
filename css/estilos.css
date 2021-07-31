@@ -282,13 +282,6 @@
   color: #000317;
 }
 
-.transformproductos {
-  /*opacity: 0.8;
-	&:hover {
-		opacity: 1;
-	}*/
-}
-
 .banners:hover {
   opacity: 0.5;
 }

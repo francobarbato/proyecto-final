@@ -191,8 +191,7 @@
 	background-image: url("../imagenes/carrusel2.jpg");
 	background-size: cover;
 	background-position: 50%;
-	min-height: 450px;
-	height: 50vh;
+	@include sizes(450px, 50vh);
 }
 .titulos {
 	color: #000;
@@ -219,12 +218,6 @@
 		background-color: #fff;
 		color: $color;
 	}
-}
-.transformproductos { 
-	/*opacity: 0.8;
-	&:hover {
-		opacity: 1;
-	}*/
 }
 .banners {
 	&:hover {
