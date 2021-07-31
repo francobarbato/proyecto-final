@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Esquies | SkiShop.com</title>
   <meta name="description" content="Este es el sitio web de mi tienda que vende equipo de esqui aplino y elementos para el cuidado de los esquies">
   <meta name="keywords" content="ESQUIES, CASCOS, BOTAS, ANTIPARRAS,CUIDADO DEL EQUIPO">
@@ -77,31 +78,34 @@
       <h1 class="container mt-3 titulos">Esquies</h1>
       <!--productos-->
       <section>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="3000">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="esquies" class="banners"></div>
+               <a href="esquieshombres.html">
+                <div id="esquies" class="banners"></div>
+               </a>
                <h3 class="mx-5 py-2 text-center titulos">Esquies Hombres</h3>    
-            </div>
-            <a href="esquieshombres.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a> 
+            </div> 
           </div>
         </article>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="3000">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="esquies02" class="banners"></div>
-                 <h3 class="mx-5 py-2 text-center titulos">Esquies Mujeres</h3>                
-            </div>
-            <a href="esquiesmujer.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a>         
+               <a href="esquiesmujer.html">
+                <div id="esquies02" class="banners"></div>
+               </a>
+                 <h3 class="mx-5 py-2 text-center titulos">Esquies Mujeres</h3>
+            </div>            
           </div>
         </article>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="3000">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="esquiesInfantil" class="banners"></div>
-                 <h3 class="mx-5 py-2 text-center titulos">Esquies Infantiles</h3>                
-            </div>
-            <a href="esquiesinfantiles.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a>         
+               <a href="esquiesinfantiles.html">
+                <div id="esquiesInfantil" class="banners"></div>
+               </a>
+                 <h3 class="mx-5 py-2 text-center titulos">Esquies Infantiles</h3>
+            </div>           
           </div>
         </article>
       </section>
@@ -147,5 +151,9 @@
       </div>
       <script src="../js/jquery-3.5.1.slim.min.js"></script>
       <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

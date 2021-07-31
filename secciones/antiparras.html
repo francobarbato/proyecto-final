@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Antiparras | SkiShop.com</title>
   <meta name="description" content="Este es el sitio web de mi tienda que vende equipo de esqui aplino y elementos para el cuidado de los esquies">
   <meta name="keywords" content="ESQUIES, CASCOS, BOTAS, ANTIPARRAS,CUIDADO DEL EQUIPO">
@@ -77,31 +78,36 @@
       <!--productos-->
       <h1 class="container mt-3 titulos">Antiparras</h1>
       <section>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="900">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="antiparras" class="banners"></div>
-               <h3 class="mx-5 py-2 text-center titulos">Antiparras Hombres</h3>    
-            </div>
-            <a href="antiparrashombres.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a> 
+              <a href="antiparrashombres.html">
+                <div id="antiparras" class="banners"></div>
+              </a>
+              <h3 class="mx-5 py-2 text-center titulos">Antiparras Hombres</h3>  
+            </div> 
           </div>
         </article>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="900">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="siteBannerMujer" class="banners"></div>
-               <h3 class="mx-5 py-2 text-center titulos">Antiparras Mujeres</h3>    
-            </div>
-            <a href="antiparrasmujer.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a> 
+               <a href="antiparrasmujer.html">
+                <div id="siteBannerMujer" class="banners"></div>
+               </a>
+               <h3 class="mx-5 py-2 text-center titulos">Antiparras Mujeres</h3>  
+            </div>  
           </div>
         </article>
-        <article class="container py-5">
+        <article class="container py-5" data-aos="fade-up" data-aos-duration="900">
           <div class="row">
             <div class="col-12 col-xl-12">
-               <div id="siteBannerInfantil" class="banners"></div>
-               <h3 class="mx-5 py-2 text-center titulos">Antiparras Infantiles</h3>    
-            </div>
-            <a href="antiparrasinfantiles.html" class="mt-4 mx-auto botton"><button type="button" class="btn d-block mx-auto">Ver mas</button></a> 
+               <a href="antiparrasinfantiles.html" class="mt-4 mx-auto botton">
+                <div id="siteBannerInfantil" class="banners"></div>
+               </a>
+               <h3 class="mx-5 py-2 text-center titulos">
+               Antiparras Infantiles
+               </h3>    
+            </div> 
           </div>
         </article>
       </section>
@@ -147,5 +153,9 @@
       </div>
       <script src="../js/jquery-3.5.1.slim.min.js"></script>
       <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
